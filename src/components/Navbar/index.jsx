@@ -5,15 +5,15 @@ import Link from './Link';
 const Navbar = () => {
   return (
     <header>
-      <div className='py-3 lg:px-28 flex justify-between items-center bg-gray-bg'>
+      <div className='py-3 px-6 lg:px-28 flex justify-between items-center bg-gray-bg'>
         {/* Company Logo */}
-        <div className='w-[159px] h-auto'>
+        <div className='w-[103px] lg:w-[159px]'>
           <img src={Logo} alt='zojapay logo' />
         </div>
 
         {/* Features and FAQs */}
         <nav>
-          <ul className='flex items-center gap-8'>
+          <ul className='flex items-center gap-4 lg:gap-8'>
             <li>
               <Link pageSection='Features' />
             </li>
