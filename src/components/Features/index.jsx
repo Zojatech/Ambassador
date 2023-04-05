@@ -1,5 +1,5 @@
-import Testimonial from '@/components/Testimonial';
 import React from 'react';
+import Testimonial from '@/components/Testimonial';
 
 const Features = () => {
   return (
@@ -9,12 +9,8 @@ const Features = () => {
         <div>
           {/* Images */}
           <div>
-            <div>
-              <img src={Friends1} alt='friends' />
-            </div>
-            <div>
-              <img src={Friends2} alt='friends' />
-            </div>
+            <div>{/* <img src={Friends1} alt='friends' /> */}</div>
+            <div>{/* <img src={Friends2} alt='friends' /> */}</div>
           </div>
 
           {/* Title and Description */}
