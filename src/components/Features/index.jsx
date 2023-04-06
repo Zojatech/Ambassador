@@ -2,6 +2,7 @@ import React from 'react';
 import Testimonial from '@/components/Testimonial';
 import Develop from '@/components/Develop';
 import Benefits from '@/components/Benefits';
+import ToJoin from '@/components/ToJoin';
 
 const Features = () => {
   return (
@@ -13,6 +14,9 @@ const Features = () => {
 
       {/* WHAT IS IN FOR YOU */}
       <Benefits />
+
+      {/* HOW TO BE AN AMBASSADOR */}
+      <ToJoin />
     </div>
   );
 };
