@@ -1,7 +1,7 @@
 import andriod from '../../assets/googlestore.svg';
 import ios from '../../assets/appstore.svg';
 import brand from '../../assets/zojapay.png';
-import Phone from '../../assets/phone-group.png';
+import Phone from '../../assets/images/phone-group.png';
 
 const Footer = () => {
   return (
