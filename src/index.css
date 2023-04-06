@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -10,21 +10,11 @@ body,
 .app {
   height: 100%;
   width: 100%;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 img {
-  @layer m-full;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-img {
-  @layer m-full;
+  max-width: 100%;
 }
 
 footer {
@@ -35,7 +25,7 @@ footer {
 
 footer .image {
   height: 200px;
-  background-image: url("./assets/banner2.jpg");
+  background-image: url('./assets/banner2.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
