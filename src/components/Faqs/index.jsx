@@ -4,11 +4,13 @@ import { AiOutlinePlusCircle } from 'react-icons/ai';
 
 const Faqs = () => {
   const [open, setOpen] = useState(false);
-  const [accordionId, setAccordionId] = useState('');
+  const [accordionId, setAccordionId] = useState(null);
 
-  const handleToggle = (id) => {
-    setOpen((current) => !current);
-    setAccordionId(id);
+  const handleAccordion = (index) => {
+    setAccordionId((prevIndex) => (prevIndex === index ? null : index));
+
+    // setOpen((current) => !current);
+    // setAccordionId(id);
   };
 
   return (
@@ -24,20 +26,24 @@ const Faqs = () => {
         </div>
 
         {/* ACCORDIONS */}
-        <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4 lg:gap-x-36 lg:gap-y-10 '>
-          {accordionContent?.map((content, i) => {
+        <div className='grid grid-cols-1 sm:grid-cols-1  md:grid-cols-2 gap-12 lg:gap-x-36 lg:gap-y-10 '>
+          {accordionContent?.map((content, index) => {
             return (
-              <div key={i} className='border-b border-gray-text'>
+              <div key={index} className='border-b border-gray-text'>
                 <div className='flex justify-between gap-4 md:gap-0'>
                   <span className='text-primary font-medium xl:text-2xl'>
                     {content.question}
                   </span>
-                  <span onClick={() => handleToggle(i)}>
+                  <span onClick={() => handleAccordion(index)}>
                     <AiOutlinePlusCircle size={24} />
                   </span>
                 </div>
                 <div className=' mt-10'>
-                  {open && accordionId === i && <p>{content.answer}</p>}
+                  <p
+                    className={` ${accordionId === index ? 'block' : 'hidden'}`}
+                  >
+                    {content.answer}
+                  </p>
                 </div>
               </div>
             );
