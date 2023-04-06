@@ -4,7 +4,7 @@ import TestimonialCard from './TestimonialCard';
 const Testimonial = () => {
   return (
     <section id='testimonial'>
-      <div className='px-6 pt-12 lg:px-28 lg:pt-28 lg:pb-20'>
+      <div className=' py-12 lg:pt-28 lg:pb-20'>
         {/* Triangle Vector */}
         <div></div>
 
