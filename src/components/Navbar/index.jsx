@@ -12,7 +12,7 @@ const Navbar = () => {
   };
   return (
     <header>
-      <div className='fixed top-0 right-0 left-0 z-50 py-3 px-6 lg:px-28 flex justify-between items-center bg-gray-bg'>
+      <div className='fixed top-0 right-0 left-0 z-50 py-3 px-6 md:px-12  lg:px-28 flex justify-between items-center bg-gray-bg'>
         {/* Company Logo */}
         <div className='w-[103px] lg:w-[159px]'>
           <img src={Logo} alt='zojapay logo' />
