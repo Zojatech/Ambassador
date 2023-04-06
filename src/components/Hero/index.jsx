@@ -12,7 +12,7 @@ const Hero = () => {
             Become an <br />
             aspiring ambassador
           </h1>
-          <p className=' lg:text-xl text-gray-text mb-5 lg:mb-14 lg:w-5/6'>
+          <p className=' lg:text-xl text-gray-text mb-5 lg:mb-14 lg:w-[90%] xl:w-5/6'>
             Join our community and represent our brand as an ambassador. you’ll
             have the opportunity to represent zojapay and make meaningful
             connections with others who share your passion for positive Change.{' '}
