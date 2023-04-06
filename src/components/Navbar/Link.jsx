@@ -10,6 +10,7 @@ const Link = ({ pageSection, selectedSection, setSelectedSection }) => {
       //   className={`${selectedSection === lowerCasePage ? classes.active : ''} ${
       //     classes.link
       //   }`}
+      className='cursor-pointer'
       onClick={() => setSelectedSection(lowerCasePage)}
     >
       {pageSection}

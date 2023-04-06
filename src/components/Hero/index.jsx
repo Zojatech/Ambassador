@@ -4,7 +4,7 @@ import Ambassadors from '@/assets/people.png';
 const Hero = () => {
   return (
     <section id='home'>
-      <div className='flex flex-col lg:flex-row lg:gap-4 justify-between items-center pt-12 px-6 lg:px-28 '>
+      <div className='flex flex-col lg:flex-row lg:gap-4 justify-between items-center pt-24 px-6 lg:px-28 lg:pt-36 '>
         {/* Title and Intro */}
         <div className='flex flex-col relative flex-1 mb-8 lg:mb-0'>
           <div></div>
