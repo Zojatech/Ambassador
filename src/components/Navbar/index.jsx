@@ -27,7 +27,7 @@ const Navbar = () => {
           >
             {!open ? (
               <BiMenuAltRight
-                className='flex justify-center items-center'
+                className='flex justify-center items-center text-[#494b83]'
                 size={16}
               />
             ) : (
