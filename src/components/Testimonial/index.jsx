@@ -9,20 +9,20 @@ const Testimonial = () => {
         <div></div>
 
         {/* Heading and Cards */}
-        <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4 lg:gap-x-20 lg:gap-y-10 '>
-          <div className='col-span-2 md:col-span-1'>
-            <h2 className='text-2xl md:text-3xl lg:text-[2.5rem] lg:leading-10 font-bold'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-5 md:gap-x-20 md:gap-y-10 '>
+          <div className='col-span-2 sm:col-span-1 md:col-span-1'>
+            <h2 className='text-2xl md:text-3xl lg:text-[2.5rem] lg:leading-10 font-bold mb-4 sm:mb-0'>
               Don’t take our word <br />
               for it Trust our ambassadors
             </h2>
           </div>
-          <article className='col-span-2 md:col-span-1'>
+          <article className='col-span-2 sm:col-span-1 md:col-span-1'>
             <TestimonialCard bgColor='bg-[#FFF6EE]' />
           </article>
-          <article className='col-span-2 md:col-span-1'>
+          <article className='col-span-2 sm:col-span-1 md:col-span-1'>
             <TestimonialCard bgColor='bg-[#ECFBEC]' />
           </article>
-          <article className='col-span-2 md:col-span-1'>
+          <article className='col-span-2 sm:col-span-1 md:col-span-1'>
             <TestimonialCard bgColor='bg-[#FDF3F6]' />
           </article>
         </div>

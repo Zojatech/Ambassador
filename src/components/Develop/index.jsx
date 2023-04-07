@@ -7,7 +7,7 @@ const Develop = () => {
   return (
     <section>
       {/* BUILD CAREER-RELEVANT SKILLS */}
-      <div className='flex flex-col-reverse gap-12 md:gap-5 lg:gap-8 md:flex-row'>
+      <div className='flex flex-col-reverse gap-12 md:gap-5 lg:gap-8 md:flex-row mb-16'>
         {/* Images */}
         <div class='relative flex justify-start items-center lg:w-3/5'>
           <div class='w-3/4 md:w-4/5'>

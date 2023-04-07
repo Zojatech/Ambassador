@@ -28,12 +28,12 @@ const Navbar = () => {
             {!open ? (
               <BiMenuAltRight
                 className='flex justify-center items-center text-[#494b83]'
-                size={16}
+                size={24}
               />
             ) : (
               <AiOutlineClose
                 className='flex justify-center items-center'
-                size={16}
+                size={24}
               />
             )}
           </button>
@@ -42,6 +42,7 @@ const Navbar = () => {
         {/* MOBILE NAV */}
         {open && (
           <nav className='flex flex-col justify-end py-6 items-center absolute z-5 top-full left-0 bg-gray-bg w-full  md:hidden'>
+            {/* <hr className='border border-gray-bg border-solid z-[999]' /> */}
             <ul className='flex flex-col  gap-6 pb-3 items-center'>
               <li>
                 <Link pageSection='Features' />
