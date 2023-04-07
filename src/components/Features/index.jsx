@@ -6,7 +6,10 @@ import ToJoin from '@/components/ToJoin';
 
 const Features = () => {
   return (
-    <div className='px-6 pt-12 md:px-12 lg:px-28 lg:pt-28 lg:pb-20'>
+    <div
+      id='features'
+      className='px-6 pt-12 md:px-12 lg:px-28 lg:pt-28 lg:pb-20 '
+    >
       <Develop />
 
       {/* TESTIMONIAL */}

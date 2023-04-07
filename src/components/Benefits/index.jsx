@@ -9,8 +9,8 @@ import Growth from '@/assets/icons/growth.svg';
 const Benefits = () => {
   return (
     <section id='benefits'>
-      <div className='container mx-auto py-8 max-w-sm sm:max-w-full'>
-        <h2 className='text-2xl md:text-3xl lg:text-[2.5rem] lg:leading-10 font-bold mx-auto text-center mb-28'>
+      <div className='container mx-auto py-16 lg:py-8 max-w-sm sm:max-w-full'>
+        <h2 className='text-2xl md:text-3xl lg:text-[2.5rem] lg:leading-10 font-bold mx-auto text-center mb-12 lg:mb-28'>
           What’s in it for you!
         </h2>
         <div className='grid gap-16 grid-cols-1 sm:grid-cols-2 md:gap-x-32 md:gap-y-16 lg:grid-cols-3 lg:gap-x-24 xl:gap-x-[157px]'>

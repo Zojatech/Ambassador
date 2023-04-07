@@ -45,13 +45,16 @@ const Navbar = () => {
             {/* <hr className='border border-gray-bg border-solid z-[999]' /> */}
             <ul className='flex flex-col  gap-6 pb-3 items-center'>
               <li>
-                <Link pageSection='Features' />
+                <Link pageSection='Features' setOpen={menuHandler} />
               </li>
               <li>
-                <Link pageSection='FAQS' />
+                <Link pageSection='Faqs' setOpen={menuHandler} />
               </li>
               <li>
-                <a className='p-[10px] border border-primary rounded-md cursor-pointer'>
+                <a
+                  className='p-[10px] border border-primary rounded-md cursor-pointer'
+                  onClick={menuHandler}
+                >
                   Get the app
                 </a>
               </li>

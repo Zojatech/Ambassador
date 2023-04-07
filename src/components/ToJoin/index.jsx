@@ -1,3 +1,4 @@
+import Button from '@/components/Button';
 import Ambassador from '../../assets/ambass.jpg';
 
 const ToJoin = () => {
@@ -23,8 +24,7 @@ const ToJoin = () => {
             </li>
             <li>Be enthusiastic about teamwork and collaboration</li>
           </ul>
-
-          <button type='button'>Become an Ambassador</button>
+          <Button label='Become and Ambassador' />
         </div>
       </div>
     </section>
