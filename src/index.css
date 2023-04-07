@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -10,11 +10,78 @@ body,
 .app {
   height: 100%;
   width: 100%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 img {
   max-width: 100%;
+}
+
+.image {
+  background-color: #162082;
+  position: relative;
+}
+
+.download {
+  padding: 1rem;
+}
+
+.download h3 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 10px 0;
+  color: white;
+}
+
+.text {
+  padding: 10px 1rem;
+}
+
+.left p {
+  margin: 0.5rem 0;
+  margin-bottom: 2rem;
+}
+
+.download .btn a img {
+  width: 100%;
+  height: 70px;
+}
+
+.btn {
+  display: flex;
+  width: 100%;
+}
+
+.btn a {
+  margin-right: 20px;
+}
+
+.iphones {
+  padding: 2rem;
+}
+
+.product {
+  margin: 1rem 0;
+}
+
+.product h3 {
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.product i {
+  font-size: 15px;
+  margin: 0 6px;
+}
+
+.left img {
+  width: 90px;
+}
+
+.ambass {
+  margin: 2rem 0;
 }
 
 .ambass h2 {
@@ -31,7 +98,7 @@ img {
 }
 
 .need li {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   border-bottom: 1px solid rgba(128, 128, 128, 0.499);
   padding: 15px;
   font-weight: 500;
@@ -40,7 +107,7 @@ img {
 }
 
 .need li::before {
-  content: '';
+  content: "";
   width: 8px;
   height: 8px;
   border-radius: 40%;
@@ -48,6 +115,11 @@ img {
   position: absolute;
   top: 40%;
   left: -2px;
+}
+
+.copyright {
+  padding: 10px 1rem;
+  font-size: 13px;
 }
 
 @media (min-width: 768px) {
@@ -59,7 +131,7 @@ img {
 
   footer .image {
     height: 200px;
-    background-image: url('./assets/banner2.jpg');
+    background-image: url("./assets/banner2.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -124,6 +196,10 @@ img {
     border-radius: 5px;
   }
 
+  .product {
+    margin: 0;
+  }
+
   .text {
     margin-top: 4rem;
     display: flex;
@@ -134,6 +210,10 @@ img {
 
   .left {
     width: 30%;
+  }
+
+  .left p {
+    margin-bottom: 0;
   }
 
   .left img {
@@ -150,23 +230,12 @@ img {
     margin: 10px 0;
   }
 
-  .product h3 {
-    font-weight: 500;
-    font-size: 12px;
-    text-transform: capitalize;
-  }
-
-  .product i {
-    font-size: 11px;
-    margin: 0 6px;
-  }
-
   .ambass {
     padding: 1rem 0;
   }
 
   .ambass h2 {
-    font-size: 32px;
+    font-size: 35px;
     font-weight: 700;
     text-align: center;
     margin: 4rem 0;
@@ -210,7 +279,7 @@ img {
   }
 
   .need li::before {
-    content: '';
+    content: "";
     width: 8px;
     height: 8px;
     border-radius: 40%;
@@ -218,5 +287,10 @@ img {
     position: absolute;
     top: 40%;
     left: -2px;
+  }
+
+  .copyright {
+    padding: 0 1rem;
+    font-size: 11px;
   }
 }
