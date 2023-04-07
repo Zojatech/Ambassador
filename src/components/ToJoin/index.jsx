@@ -1,5 +1,5 @@
 import Button from '@/components/Button';
-import Ambassador from '../../assets/ambass.jpg';
+import Ambassador from '../../assets/ambassadors.jpg';
 import { toJoin } from '@/data';
 
 const ToJoin = () => {

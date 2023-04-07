@@ -4,14 +4,15 @@ import Ambassadors from '@/assets/people.png';
 const Hero = () => {
   return (
     <section id='home'>
-      <div className='flex flex-col lg:flex-row lg:gap-4 justify-between items-center pt-24 px-6 pb-12 lg:pb-[92px] lg:px-28 lg:pt-36 '>
+      <div className='flex flex-col lg:flex-row lg:gap-4 justify-between items-center pt-24 px-6 pb-12 lg:pb-[92px] lg:px-28 sm:pt-36 '>
         {/* Title and Intro */}
         <div className='flex flex-col relative flex-1 mb-12 lg:mb-0'>
-          <div></div>
-          <h1 className='text-2xl md:text-3xl lg:text-[2.5rem] lg:leading-10 font-bold mb-4 lg:mb-6'>
-            Become an <br />
-            aspiring ambassador
-          </h1>
+          <div className='before:absolute before:content-star before:z-[-1] before:left-[130px] lg:before:left-[230px] md:before:left-[170px] before:top-[-6%]'>
+            <h1 className='text-2xl md:text-3xl lg:text-[2.5rem] lg:leading-10 font-bold mb-4 lg:mb-6'>
+              Become an <br />
+              aspiring ambassador
+            </h1>
+          </div>
           <p className=' lg:text-xl text-gray-text mb-5 lg:mb-14 lg:w-[90%] xl:w-5/6'>
             Join our community and represent our brand as an ambassador. you’ll
             have the opportunity to represent zojapay and make meaningful

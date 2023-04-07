@@ -84,17 +84,6 @@ img {
   width: 90px;
 }
 
-.ambass {
-  margin: 2rem 0;
-}
-
-.ambass h2 {
-  font-size: 20px;
-  font-weight: 700;
-  text-align: left;
-  margin: 2rem 0;
-}
-
 .need h3 {
   font-size: 15px;
   font-weight: 600;
@@ -228,21 +217,6 @@ img {
     margin: 10px 0;
   }
 
-  .ambass {
-    padding: 1rem 0;
-  }
-
-  .ambass h2 {
-    font-size: 35px;
-    font-weight: 700;
-    text-align: center;
-    margin: 4rem 0;
-  }
-
-  .details {
-    display: flex;
-  }
-
   .details .image {
     width: 40%;
     height: 500px;
@@ -252,28 +226,6 @@ img {
   .details .image img {
     width: 100%;
     height: 100%;
-  }
-
-  .need {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 500px;
-  }
-
-  .need h3 {
-    font-size: 18px;
-    font-weight: 500;
-  }
-
-  .need li {
-    margin-bottom: 1rem;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.499);
-    padding: 15px;
-    font-weight: 500;
-    font-size: 14px;
-    position: relative;
   }
 
   .need li::before {
