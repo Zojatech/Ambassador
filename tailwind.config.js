@@ -9,6 +9,7 @@ export default {
         primary: '#222B88',
         'gray-bg': '#F8FAFC',
         'gray-text': '#5E6366',
+        'gray-border': ' #E7E7E7',
         'blue-bg': 'rgba(34, 43, 136, 0.1)',
       },
       backgroundImage: {

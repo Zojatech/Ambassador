@@ -29,3 +29,10 @@ export const accordionContent = [
       'Any student of a tertiary institution in Nigeria is eligible to apply',
   },
 ];
+
+export const toJoin = [
+  'Be passionate about financial education',
+  'Be eager to learn effective commnication skills',
+  'Be excited about creating innovation and showcasing creativity',
+  'Be enthusiastic about teamwork and collaboration',
+];
