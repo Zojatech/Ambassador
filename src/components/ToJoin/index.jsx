@@ -1,16 +1,17 @@
-import ambass from "../../assets/ambass.jpg";
+import Button from '@/components/Button';
+import Ambassador from '../../assets/ambass.jpg';
 
-const Ambass = () => {
+const ToJoin = () => {
   return (
-    <section className="ambass">
+    <section className='ambass'>
       <h2>All you need to become an Ambassador</h2>
 
-      <div className="details">
-        <div className="image">
-          <img src={ambass} />
+      <div className='details'>
+        <div className='image'>
+          <img src={Ambassador} />
         </div>
 
-        <div className="need">
+        <div className='need'>
           <h3>
             To become a Zojapay Ambassador, you need to be bold and creative.
             also these are needed:
@@ -23,12 +24,11 @@ const Ambass = () => {
             </li>
             <li>Be enthusiastic about teamwork and collaboration</li>
           </ul>
-
-          <button type="button">Become an Ambassador</button>
+          <Button label='Become and Ambassador' />
         </div>
       </div>
     </section>
   );
 };
 
-export default Ambass;
+export default ToJoin;

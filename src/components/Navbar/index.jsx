@@ -12,7 +12,7 @@ const Navbar = () => {
   };
   return (
     <header>
-      <div className='fixed top-0 right-0 left-0 z-50 py-3 px-6 lg:px-28 flex justify-between items-center bg-gray-bg'>
+      <div className='fixed top-0 right-0 left-0 z-50 py-3 px-6 md:px-12  lg:px-28 flex justify-between items-center bg-gray-bg'>
         {/* Company Logo */}
         <div className='w-[103px] lg:w-[159px]'>
           <img src={Logo} alt='zojapay logo' />
@@ -28,12 +28,12 @@ const Navbar = () => {
             {!open ? (
               <BiMenuAltRight
                 className='flex justify-center items-center text-[#494b83]'
-                size={16}
+                size={24}
               />
             ) : (
               <AiOutlineClose
                 className='flex justify-center items-center'
-                size={16}
+                size={24}
               />
             )}
           </button>
@@ -42,15 +42,19 @@ const Navbar = () => {
         {/* MOBILE NAV */}
         {open && (
           <nav className='flex flex-col justify-end py-6 items-center absolute z-5 top-full left-0 bg-gray-bg w-full  md:hidden'>
+            {/* <hr className='border border-gray-bg border-solid z-[999]' /> */}
             <ul className='flex flex-col  gap-6 pb-3 items-center'>
               <li>
-                <Link pageSection='Features' />
+                <Link pageSection='Features' setOpen={menuHandler} />
               </li>
               <li>
-                <Link pageSection='FAQS' />
+                <Link pageSection='Faqs' setOpen={menuHandler} />
               </li>
               <li>
-                <a className='p-[10px] border border-primary rounded-md cursor-pointer'>
+                <a
+                  className='p-[10px] border border-primary rounded-md cursor-pointer'
+                  onClick={menuHandler}
+                >
                   Get the app
                 </a>
               </li>

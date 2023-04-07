@@ -8,14 +8,11 @@ const Faqs = () => {
 
   const handleAccordion = (index) => {
     setAccordionId((prevIndex) => (prevIndex === index ? null : index));
-
-    // setOpen((current) => !current);
-    // setAccordionId(id);
   };
 
   return (
     <section id='faqs'>
-      <div className='px-6 pt-12 lg:px-28 lg:pt-28 lg:pb-20'>
+      <div className='px-6 pb-16 pt-12 md:px-12 lg:px-28 lg:pt-28 lg:pb-24 bg-primary bg-opacity-10'>
         {/* TITLE AND SUBTITLE */}
         <div className='mb-16 md:mb-24 text-center'>
           <p className='text-primary mb-3'>frequently asked questions</p>

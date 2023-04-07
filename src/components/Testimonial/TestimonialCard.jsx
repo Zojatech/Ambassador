@@ -4,7 +4,7 @@ import Instagram from '@/assets/instagram.svg';
 const TestimonialCard = ({ bgColor }) => {
   return (
     <div className={`px-5 pt-7 pb-14 ${bgColor} rounded-md`}>
-      <p className='font-medium mb-24'>
+      <p className='font-medium mb-12 lg:mb-24'>
         “Being a Zojapay’s ambassador has taught me about leadership and
         teamwork. I’m always glad to preach the gospel about Zojapay.”
       </p>

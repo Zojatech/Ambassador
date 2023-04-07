@@ -1,7 +1,12 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
-const Link = ({ pageSection, selectedSection, setSelectedSection }) => {
+const Link = ({
+  pageSection,
+  selectedSection,
+  setSelectedSection,
+  setOpen,
+}) => {
   const lowerCasePage = pageSection.toLowerCase().replace(/ /g, '');
 
   return (
@@ -11,7 +16,10 @@ const Link = ({ pageSection, selectedSection, setSelectedSection }) => {
       //     classes.link
       //   }`}
       className='cursor-pointer'
-      onClick={() => setSelectedSection(lowerCasePage)}
+      onClick={() => {
+        // setSelectedSection(lowerCasePage);
+        setOpen(false);
+      }}
     >
       {pageSection}
     </AnchorLink>
