@@ -19,6 +19,7 @@ img {
 
 .image {
   background-color: #162082;
+  position: relative;
 }
 
 .download {
@@ -79,6 +80,10 @@ img {
   width: 90px;
 }
 
+.ambass {
+  margin: 2rem 0;
+}
+
 .ambass h2 {
   font-size: 20px;
   font-weight: 700;
@@ -110,17 +115,6 @@ img {
   position: absolute;
   top: 40%;
   left: -2px;
-}
-
-.need button {
-  border: none;
-  outline: none;
-  color: white;
-  font-size: 14px;
-  background-color: blue;
-  border-radius: 3px;
-  padding: 0.7rem;
-  width: 200px;
 }
 
 @media (min-width: 768px) {
@@ -280,16 +274,5 @@ img {
     position: absolute;
     top: 40%;
     left: -2px;
-  }
-
-  .need button {
-    border: none;
-    outline: none;
-    color: white;
-    font-size: 14px;
-    background-color: blue;
-    border-radius: 3px;
-    padding: 0.7rem;
-    width: 200px;
   }
 }
