@@ -17,6 +17,34 @@ img {
   max-width: 100%;
 }
 
+.text {
+  padding: 1rem;
+}
+
+.left p {
+  margin: 0.5rem 0;
+  margin-bottom: 2rem;
+}
+
+.product {
+  margin: 1rem 0;
+}
+
+.product h3 {
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.product i {
+  font-size: 15px;
+  margin: 0 6px;
+}
+
+.left img {
+  width: 90px;
+}
+
 .ambass h2 {
   font-size: 20px;
   font-weight: 700;
@@ -161,23 +189,12 @@ img {
     margin: 10px 0;
   }
 
-  .product h3 {
-    font-weight: 500;
-    font-size: 12px;
-    text-transform: capitalize;
-  }
-
-  .product i {
-    font-size: 11px;
-    margin: 0 6px;
-  }
-
   .ambass {
     padding: 1rem 0;
   }
 
   .ambass h2 {
-    font-size: 32px;
+    font-size: 35px;
     font-weight: 700;
     text-align: center;
     margin: 4rem 0;
