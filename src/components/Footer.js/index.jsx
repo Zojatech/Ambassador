@@ -75,7 +75,7 @@ const Footer = () => {
 
       <div className="copyright">
         <a>
-          <span>&#169; 2020</span> zojapay.All Right Reserved
+          <span>&#169; 2020</span> Zojapay.All Right Reserved
         </a>
       </div>
     </footer>
