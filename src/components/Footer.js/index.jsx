@@ -27,7 +27,7 @@ const Footer = () => {
         <div className="left">
           <img src={brand} />
           <p>
-            Zojapay is a peer-2-peer financial inclusion pplication that simplifies
+            Zojapay is a peer-2-peer financial inclusion application that simplifies
             payment by making access to cash easy or retail market
           </p>
         </div>
@@ -57,7 +57,7 @@ const Footer = () => {
               <li>Gbagada lagos</li>
               <li>help@zojaypay.com</li>
               <li>
-                follows us
+                Follows us
                 <a href>
                   <i className="fa-brands fa-facebook-f"></i>
                 </a>
