@@ -12,9 +12,6 @@ export default {
       },
       content: {
         star: "url('src/assets/images/star.png')",
-        triangle: "url('src/assets/triangle.png')",
-        // sparkles: "url('./assets/Sparkles.png')",
-        // circles: "url('./assets/Circles.png')",
       },
     },
   },

@@ -1,12 +1,15 @@
 import React from 'react';
 import TestimonialCard from './TestimonialCard';
+import Triangle from '@/assets/images/triangle.png'
 
 const Testimonial = () => {
   return (
     <section id='testimonial'>
-      <div className=' py-12 lg:pt-28 lg:pb-20'>
+      <div className=' py-12 lg:pt-28 lg:pb-20 relative'>
         {/* Triangle Vector */}
-        <div></div>
+        <div className='absolute -top-4 left-[-10%] lg:-left-[15%] xl:-left-[10%]'>
+          <img src={Triangle} alt='vector'/>
+        </div>
 
         {/* Heading and Cards */}
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-5 md:gap-x-20 md:gap-y-10 '>
