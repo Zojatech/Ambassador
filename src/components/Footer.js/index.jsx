@@ -7,7 +7,7 @@ const Footer = () => {
       {/* BANNER */}
       <Banner />
 
-      <div className='px-6 pt-20 md:px-12 lg:px-28 sm:pt-28 lg:pb-20 w-full'>
+      <div className='px-6 pb-10 pt-20 md:px-12 lg:px-28 sm:pt-28  w-full'>
         <div className='text'>
           <div className='left'>
             <img src={Brand} />

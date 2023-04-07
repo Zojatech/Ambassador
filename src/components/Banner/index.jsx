@@ -5,7 +5,7 @@ import AppStore from '../../assets/appstore.svg';
 
 const Banner = () => {
   return (
-    <div className='px-6 pt-20 md:px-12 lg:px-28 sm:pt-28 lg:pb-20 xl:pt-48 w-full'>
+    <div className='px-6 pt-20 md:px-12 lg:px-28 sm:pt-28 md:pt-40 lg:pb-20 lg:pt-48 w-full'>
       <div className='bg-primary w-full rounded-md'>
         <div className='pb-10  block sm:pb-4 sm:flex sm:justify-around'>
           <div className='p-4'>
