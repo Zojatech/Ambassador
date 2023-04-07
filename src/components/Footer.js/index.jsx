@@ -34,7 +34,7 @@ const Footer = () => {
 
         <div className="lists">
           <div className="product">
-            <h3>Product feature</h3>
+            <h3>Product Features</h3>
             <ul>
               <li>Cash request</li>
               <li>Transfer cash</li>
