@@ -119,6 +119,7 @@ img {
 
 .copyright {
   padding: 10px 1rem;
+  font-size: 13px;
 }
 
 @media (min-width: 768px) {
@@ -290,5 +291,6 @@ img {
 
   .copyright {
     padding: 0 1rem;
+    font-size: 11px;
   }
 }
