@@ -1,30 +1,30 @@
-import andriod from '../../assets/googlestore.svg';
-import ios from '../../assets/appstore.svg';
-import brand from '../../assets/zojapay.png';
-import Phone from '../../assets/images/phone-group.png';
+import andriod from "../../assets/googlestore.svg";
+import ios from "../../assets/appstore.svg";
+import brand from "../../assets/zojapay.png";
+import Phone from "../../assets/images/phone-group.png";
 
 const Footer = () => {
   return (
     <footer>
-      <div className='image'>
-        <div className='download'>
+      <div className="image">
+        <div className="download">
           <h3>download zojapay now!</h3>
-          <div className='btn'>
-            <a href=''>
+          <div className="btn">
+            <a href="">
               <img src={andriod}></img>
             </a>
-            <a href=''>
+            <a href="">
               <img src={ios}></img>
             </a>
           </div>
         </div>
-        <div className='iphones'>
-          <img src={Phone} className='i2' />
+        <div className="iphones">
+          <img src={Phone} className="i2" />
         </div>
       </div>
 
-      <div className='text'>
-        <div className='left'>
+      <div className="text">
+        <div className="left">
           <img src={brand} />
           <p>
             zoja is a peer-2-peer financial inclusion pplication that simplifies
@@ -32,8 +32,8 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className='lists'>
-          <div className='product'>
+        <div className="lists">
+          <div className="product">
             <h3>Product feature</h3>
             <ul>
               <li>Cash request</li>
@@ -42,7 +42,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className='product'>
+          <div className="product">
             <h3>comapny</h3>
             <ul>
               <li>Terms and condition</li>
@@ -51,7 +51,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className='product'>
+          <div className="product">
             <h3>Support</h3>
             <ul>
               <li>Gbagada lagos</li>
@@ -59,18 +59,24 @@ const Footer = () => {
               <li>
                 follows us
                 <a href>
-                  <i className='fa-brands fa-facebook-f'></i>
+                  <i className="fa-brands fa-facebook-f"></i>
                 </a>
                 <a href>
-                  <i className='fa-brands fa-twitter'></i>
+                  <i className="fa-brands fa-twitter"></i>
                 </a>
                 <a href>
-                  <i className='fa-brands fa-instagram'></i>
+                  <i className="fa-brands fa-instagram"></i>
                 </a>
               </li>
             </ul>
           </div>
         </div>
+      </div>
+
+      <div className="copyright">
+        <a>
+          <span>&#169;</span> zojapay.All Right Reserved
+        </a>
       </div>
     </footer>
   );

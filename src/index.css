@@ -35,7 +35,7 @@ img {
 }
 
 .text {
-  padding: 1rem;
+  padding: 10px 1rem;
 }
 
 .left p {
@@ -98,7 +98,7 @@ img {
 }
 
 .need li {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   border-bottom: 1px solid rgba(128, 128, 128, 0.499);
   padding: 15px;
   font-weight: 500;
@@ -115,6 +115,10 @@ img {
   position: absolute;
   top: 40%;
   left: -2px;
+}
+
+.copyright {
+  padding: 10px 1rem;
 }
 
 @media (min-width: 768px) {
@@ -191,6 +195,10 @@ img {
     border-radius: 5px;
   }
 
+  .product {
+    margin: 0;
+  }
+
   .text {
     margin-top: 4rem;
     display: flex;
@@ -201,6 +209,10 @@ img {
 
   .left {
     width: 30%;
+  }
+
+  .left p {
+    margin-bottom: 0;
   }
 
   .left img {
@@ -274,5 +286,9 @@ img {
     position: absolute;
     top: 40%;
     left: -2px;
+  }
+
+  .copyright {
+    padding: 0 1rem;
   }
 }
