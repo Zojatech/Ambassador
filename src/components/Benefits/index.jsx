@@ -9,12 +9,13 @@ import Growth from '@/assets/icons/growth.svg';
 const Benefits = () => {
   return (
     <section id='benefits'>
-      <div className='container mx-auto py-16 lg:py-8 max-w-sm sm:max-w-full'>
+      <div className='  mx-auto py-16 lg:py-8 max-w-sm sm:max-w-full'>
         <h2 className='text-2xl md:text-3xl lg:text-[2.5rem] lg:leading-10 font-bold mx-auto text-center mb-12 lg:mb-28'>
           What’s in it for you!
         </h2>
         <div className='grid gap-16 grid-cols-1 sm:grid-cols-2 md:gap-x-32 md:gap-y-16 lg:grid-cols-3 lg:gap-x-24 xl:gap-x-[157px]'>
-          <article className='col-span-1'>
+          {/* Testing Responsiveness Here */}
+          <article className='col-span-1 w-3/4 sm:w-full'>
             <div className='flex flex-col gap-4'>
               {/* Logo */}
               <div className='mb-6 w-24 h-24 rounded-full bg-[#08E646] bg-opacity-[15%] flex justify-center items-center'>
@@ -28,7 +29,7 @@ const Benefits = () => {
               </p>
             </div>
           </article>
-          <article className='col-span-1'>
+          <article className='col-span-1 w-3/4 sm:w-full'>
             <div className='flex flex-col gap-4'>
               {/* Logo */}
               <div className='mb-6 w-24 h-24 rounded-full bg-[#89CFF0] bg-opacity-[15%]  flex justify-center items-center'>
@@ -42,7 +43,7 @@ const Benefits = () => {
               </p>
             </div>
           </article>
-          <article className='col-span-1'>
+          <article className='col-span-1 w-3/4 sm:w-full'>
             <div className='flex flex-col gap-4'>
               {/* Logo */}
               <div className='mb-6 w-24 h-24 rounded-full bg-[#FFD60A] bg-opacity-[15%]  flex justify-center items-center'>
@@ -56,7 +57,7 @@ const Benefits = () => {
               </p>
             </div>
           </article>
-          <article className='col-span-1'>
+          <article className='col-span-1 w-3/4 sm:w-full'>
             <div className='flex flex-col gap-4'>
               {/* Logo */}
               <div className='mb-6 w-24 h-24 rounded-full bg-[#FFAF56] bg-opacity-[15%]  flex justify-center items-center'>
@@ -70,7 +71,7 @@ const Benefits = () => {
               </p>
             </div>
           </article>
-          <article className='col-span-1'>
+          <article className='col-span-1 w-3/4 sm:w-full'>
             <div className='flex flex-col gap-4'>
               {/* Logo */}
               <div className='mb-6 w-24 h-24 rounded-full bg-[#2DBD9B] bg-opacity-[15%]  flex justify-center items-center'>
@@ -84,7 +85,7 @@ const Benefits = () => {
               </p>
             </div>
           </article>
-          <article className='col-span-1'>
+          <article className='col-span-1 w-3/4 sm:w-full'>
             <div className='flex flex-col gap-4'>
               {/* Logo */}
               <div className='mb-6 w-24 h-24 rounded-full bg-primary bg-opacity-[15%]  flex justify-center items-center'>
