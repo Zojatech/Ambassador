@@ -242,5 +242,9 @@ img {
   .copyright {
     padding: 0 1rem;
     font-size: 11px;
-  }
+  } 
+
+.copyright:hover {
+color: blue;
+  } 
 }
