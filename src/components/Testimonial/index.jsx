@@ -18,6 +18,7 @@ const Testimonial = () => {
               Don’t take our word <br />
               for it Trust our ambassadors
             </h2>
+            
           </div>
           <article className='col-span-2 sm:col-span-1 md:col-span-1'>
             <TestimonialCard bgColor='bg-[#FFF6EE]' />

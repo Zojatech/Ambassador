@@ -10,9 +10,6 @@ export default {
         'gray-border': ' #E7E7E7',
         'blue-bg': 'rgba(34, 43, 136, 0.1)',
       },
-      content: {
-        star: "url('src/assets/images/star.png')",
-      },
     },
   },
   plugins: [],

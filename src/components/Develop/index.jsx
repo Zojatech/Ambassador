@@ -2,6 +2,8 @@ import React from 'react';
 import People1 from '@/assets/friends-gisting.png';
 import People2 from '@/assets/study-group.png';
 import Button from '@/components/Button';
+import Star from '@/assets/images/star.png';
+
 
 const Develop = () => {
   return (
@@ -20,8 +22,8 @@ const Develop = () => {
 
         {/* Title and Description */}
         <div class='relative flex flex-col justify-center md:w-1/2 lg:w-[47%]'>
-        <div className='before:absolute before:content-star before:z-[-1] before:right-0 before:top-[-20%] lg:before:top-[0%]'></div>
-          <h2 className='text-2xl md:text-3xl lg:text-[2.5rem] lg:leading-10 font-bold mb-4 lg:mb-6 whitespace-nowrap'>
+        <div className='absolute content-star z-[-1] right-0 top-[-20%] lg:top-[-10%] xl:top-[2%]'><img src={Star} alt='star vector'/></div>
+          <h2 className='text-2xl md:text-3xl xl:text-[2.5rem] lg:leading-10 font-bold mb-4 lg:mb-6 '>
             Build a career-relevant <br />
             skills.
           </h2>
