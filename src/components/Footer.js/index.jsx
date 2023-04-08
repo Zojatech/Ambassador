@@ -1,5 +1,6 @@
 import Brand from '../../assets/zojapay.png';
 import Banner from '@/components/Banner';
+import Waves from '@/assets/images/wavy.png'
 
 const Footer = () => {
   return (
@@ -7,7 +8,10 @@ const Footer = () => {
       {/* BANNER */}
       <Banner />
 
-      <div className='px-6 pb-10 pt-20 md:px-12 lg:px-28 sm:pt-28  w-full cursor-pointer'>
+      <div className='relative px-6 pb-10 pt-20 md:px-12 lg:px-28 sm:pt-28 w-full'>
+      <div className='absolute right-0 bottom-0 -z-10'>
+<img src={Waves} alt='wavy background'/>
+      </div>
         <div className='text'>
           <div className='left'>
             <img src={Brand} />
