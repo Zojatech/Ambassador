@@ -12,7 +12,7 @@ const Footer = () => {
       <div className='absolute right-0 bottom-0 -z-10'>
 <img src={Waves} alt='wavy background'/>
       </div>
-        <div className='text-sm py-[10px] px-4 md:mt-16 md:flex md:justify-between  md:items-center '>
+        <div className='text-sm py-[10px] px-4 md:mt-3 md:flex md:justify-between  md:items-center '>
           <div className='md:w-[30%]'>
           <div  className='w-[90px] md:w-full'>
             <img src={Brand} alt='Zojapay brand logo'/>
@@ -33,7 +33,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div>
+            <div className='mb-4 mx-0'>
               <h3  className='font-semibold capitalize'>company</h3>
               <ul className='flex flex-col gap-2.5 mt-2.5'>
                 <li>Terms and condition</li>
@@ -42,7 +42,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className='product'>
+            <div className='mb-4 mx-0'>
               <h3  className='font-semibold capitalize'>Support</h3>
               <ul  className='flex flex-col gap-2.5 mt-2.5'>
                 <li>Gbagada lagos</li>

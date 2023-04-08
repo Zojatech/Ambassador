@@ -4,8 +4,8 @@ import { toJoin } from '@/data';
 
 const ToJoin = () => {
   return (
-    <section className='ambass'>
-      <div className='mb-24'>
+    <section id='to-join'>
+      <div className='mb-24 mt-9'>
         <h2 className='text-xl md:text-2xl lg:text-3xl font-bold mb-10 sm:mb-24'>
           All you need to become an Ambassador
         </h2>
