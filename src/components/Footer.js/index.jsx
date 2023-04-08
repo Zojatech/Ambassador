@@ -58,9 +58,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='copyright'>
+        <div className='text-xs text-black-500 hover:text-blue-900 dark:hover:text-blue '>
           <a>
-            <span>  &#169; 2020</span> Zojapay.All Right Reserved
+            <span className='' >  &#169; 2020</span> Zojapay.All Right Reserved
           </a>
         </div>
       </div>
