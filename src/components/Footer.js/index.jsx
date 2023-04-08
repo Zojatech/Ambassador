@@ -58,7 +58,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='text-xs text-black-500 hover:text-blue-900 dark:hover:text-blue '>
+        <div className='text-xs ml-3.5 text-black-500 hover:text-blue-900 dark:hover:text-blue '>
           <a>
             <span className='' >  &#169; 2020</span> Zojapay.All Right Reserved
           </a>
