@@ -7,7 +7,7 @@ const Footer = () => {
       {/* BANNER */}
       <Banner />
 
-      <div className='px-6 pb-10 pt-20 md:px-12 lg:px-28 sm:pt-28  w-full'>
+      <div className='px-6 pb-10 pt-20 md:px-12 lg:px-28 sm:pt-28  w-full cursor-pointer'>
         <div className='text'>
           <div className='left'>
             <img src={Brand} />
@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
 
             <div className='product'>
-              <h3>comapny</h3>
+              <h3>company</h3>
               <ul>
                 <li>Terms and condition</li>
                 <li>Privacy policy</li>
@@ -43,13 +43,13 @@ const Footer = () => {
                 <li>help@zojaypay.com</li>
                 <li>
                   Follows us
-                  <a href>
+                  <a href  className="text-black-500 hover:text-blue-900 dark:hover:text-blue">
                     <i className='fa-brands fa-facebook-f'></i>
                   </a>
-                  <a href>
+                  <a href  className="text-black-500 hover:text-blue-900 dark:hover:text-blue">
                     <i className='fa-brands fa-twitter'></i>
                   </a>
-                  <a href>
+                  <a href  className="text-black-500 hover:text-blue-900 dark:hover:text-blue">
                     <i className='fa-brands fa-instagram'></i>
                   </a>
                 </li>
@@ -58,9 +58,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='copyright'>
+        <div className='text-xs ml-3.5 text-black-500 hover:text-blue-900 dark:hover:text-blue '>
           <a>
-            <span>&#169; 2020</span> Zojapay.All Right Reserved
+            <span className='' >  &#169; 2020</span> Zojapay.All Right Reserved
           </a>
         </div>
       </div>

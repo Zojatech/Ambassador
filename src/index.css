@@ -238,9 +238,14 @@ img {
     top: 40%;
     left: -2px;
   }
+}
 
-  .copyright {
+  /* .copyright {
     padding: 0 1rem;
     font-size: 11px;
-  }
-}
+  } 
+
+.copyright:hover {
+color: blue;
+  } 
+} */
