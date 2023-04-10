@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import Button from "@/components/Button";
 import Ambassador from "../../assets/ambassadors.jpg";
 import { toJoin } from "@/data";
+import Dropdown from "@/components/button-drop/Dropdown";
 
 const ToJoin = () => {
   return (
@@ -47,7 +48,7 @@ const ToJoin = () => {
                 </li>
               ))}
             </ul>
-            <Button label="Become an Ambassador" />
+            <Dropdown label="Become an Ambassador" />
           </motion.div>
         </div>
       </div>
