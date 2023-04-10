@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import Button from '@/components/Button';
 import Ambassador from '../../assets/ambassadors.jpg';
 import { toJoin } from '@/data';
@@ -20,7 +21,15 @@ const ToJoin = () => {
           </div>
 
           {/* NEEDS LIST */}
-          <div className='sm:w-1/2 '>
+          <motion.div className='sm:w-1/2 '         
+          initial="hidden"
+        whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, x: 50 },
+              visible: { opacity: 1, x: 0 },
+            }}>
             <h3 className='mb-8 text-lg font-semibold sm:mb-8 lg:mb-16'>
               To become a Zojapay Ambassador, you need to be bold and creative.
               also these are needed:
@@ -37,7 +46,7 @@ const ToJoin = () => {
               ))}
             </ul>
             <Button label='Become and Ambassador' />
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

@@ -1,4 +1,5 @@
 import React from 'react';
+import {motion} from 'framer-motion'
 import Ambassadors from '@/assets/people.png';
 import Star from '@/assets/images/star.png';
 
@@ -7,7 +8,15 @@ const Hero = () => {
     <section id='home'>
       <div className='flex flex-col lg:flex-row lg:gap-4 justify-between items-center pt-24 px-6 pb-12 lg:pb-[92px] lg:px-28 sm:pt-36 '>
         {/* Title and Intro */}
-        <div className='flex flex-col relative flex-1 mb-12 lg:mb-0'>
+        <motion.div className='flex flex-col relative flex-1 mb-12 lg:mb-0'             
+        initial="hidden"
+        whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, x: -50 },
+              visible: { opacity: 1, x: 0 },
+            }}>
           <div className='absolute content-star z-[-1] left-[130px] lg:left-[230px] md:left-[170px] top-[-6%]'><img src={Star} alt='star vector'/>
           </div>
             <h1 className='text-2xl md:text-3xl lg:text-[2.5rem] lg:leading-10 font-bold mb-4 lg:mb-6'>
@@ -22,7 +31,7 @@ const Hero = () => {
           <button className='bg-primary rounded-md text-white px-5 py-[10px] inline-block w-fit'>
             <a>Become an Ambassador</a>
           </button>
-        </div>
+        </motion.div>
 
         {/* Image */}
         <div className='flex-1 w-[300px] lg:max-w-[500px]'>
