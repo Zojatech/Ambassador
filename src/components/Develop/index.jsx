@@ -48,7 +48,7 @@ const Develop = () => {
             networking and collaboration and connecting like minds to drive
             innovation and progress.{' '}
           </p>
-          <Button label='Learn More' />
+          <Button label='Learn More' link='#to-join' />
         </motion.div>
       </motion.div>
     </section>

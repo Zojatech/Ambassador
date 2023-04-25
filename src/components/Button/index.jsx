@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-const Button = ({ label }) => {
+const Button = ({ label, link }) => {
   return (
-    <button className='bg-primary whitespace-nowrap rounded-md text-white px-5 py-[10px] inline-block w-fit'>
-      <a href='#'>{label}</a>
+    <button className="inline-block w-fit whitespace-nowrap rounded-md bg-primary px-5 py-[10px] text-white">
+      <a href={link}>{label}</a>
     </button>
   );
 };
