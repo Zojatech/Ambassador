@@ -2,21 +2,12 @@ export const accordionContent = [
   {
     question: 'Who is eligible to apply?',
     answer:
-      'Any student of a tertiary institution in Nigeria is eligible to apply',
+      'Anybody is eligible to apply. There are two categories, one for students of tertiary institutions and the other for anybody interested in making money.',
   },
   {
-    question: 'How much does it cost to apply?',
-    answer: 'It is totally free',
-  },
-  {
-    question: 'How does zojapay recruit ambassadors?',
+    question: 'How does Zojapay recruit ambassadors?',
     answer:
       'We recruit ambassadors by making applications open to everyone through our platforms such as this. This is because we believe everyone should have an extra source of income and we are offering one.',
-  },
-  {
-    question: 'If I have information or inquiries, who do I reach?',
-    answer: `Send a message to `,
-    link: 'help@zojatech.com',
   },
   {
     question: 'Is the program only for student?',
@@ -24,9 +15,19 @@ export const accordionContent = [
       'No. Everyone can apply. However, we have two categories, one for students of tertiary institutions and the other for anybody interested in making money',
   },
   {
-    question: 'How can i earn an ambassador?',
+    question: 'How much does it cost to apply?',
     answer:
-      'You earn N 100 for every successful referral you made using your referral code during sign up process. Using the total number of referrals, payment will be collated and paid to your zojapay wallet monthly ',
+      'It is totally free. However, you need to download the Zojapay App and signup first to be eligible',
+  },
+  {
+    question: 'If I have information or inquiries, who do I reach?',
+    answer: `Call the phone numbers on the website or send a message to `,
+    link: 'help@zojatech.com',
+  },
+  {
+    question: 'How do I earn money as an ambassador?',
+    answer:
+      'You earn N100 for every successful referral you made using your referral code during signup process. Using the total number of referrals, payment will be collated and paid to your Zojapay wallet monthly ',
   },
 ];
 
@@ -59,3 +60,13 @@ export const benefits = [
       'Refer and earn as much as you can. By being an ambassador, you have an extra source of income which when actively done will become a major source of income.',
   },
 ];
+
+// TESTIMONIAL SECTION
+export const testimonials = {
+  intro: `Being a Zojapay’s ambassador has taught me about leadership and teamwork. I’m always glad to preach the gospel about Zojapay.`,
+  details: [
+    { name: 'John Ovu', handle: 'john_ovu', image: '' },
+    { name: 'Cassandra Onyenjen', handle: 'cassy_o', image: '' },
+    { name: 'Tosin Oni', handle: 'tosi', image: '' },
+  ],
+};

@@ -19,7 +19,8 @@ const Footer = () => {
             </div>
             <p className='mb-8 mt-2 md:mb-0'>
               Zojapay is a peer-2-peer financial inclusion application that
-              simplifies payment by making access to cash easy or retail market
+              simplifies and enables hassle-free contactless and digital
+              payments through modern day payment methods{' '}
             </p>
             <div className='hidden text-xs text-primary md:mt-3 md:block'>
               <a>
