@@ -27,14 +27,20 @@ const Footer = () => {
             <div className='mx-0 mb-4'>
               <h3 className='font-semibold capitalize'>Product Features</h3>
               <ul className='mt-2.5 flex flex-col gap-2.5'>
-                <li>Cash request</li>
-                <li>Transfer cash</li>
-                <li>Utility payment</li>
+                <li>Buy Airtime</li>
+                <li>Pay Bills</li>
+                <li>Bank Transfer</li>
+                <li>Merchant Payment and Collection</li>
+                <li>POS Agent Cash Withdrawal</li>
+                <li>NFC Payment</li>
+                <li>QR Code Payment</li>
+                <li>USSD</li>
+                <li>Cards Payment</li>
               </ul>
             </div>
 
             <div className='mx-0 mb-4'>
-              <h3 className='font-semibold capitalize'>company</h3>
+              <h3 className='font-semibold capitalize'>Company</h3>
               <ul className='mt-2.5 flex flex-col gap-2.5'>
                 <li>Terms and condition</li>
                 <li>Privacy policy</li>

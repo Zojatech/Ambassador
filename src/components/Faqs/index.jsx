@@ -56,7 +56,9 @@ const Faqs = () => {
                     className={` ${accordionId === index ? 'block' : 'hidden'}`}
                   >
                     <span>{content.answer}</span>
-                    <a className='text-primary'>{content.link}</a>
+                    <a className='text-primary' href='zojapay.com'>
+                      {content.link}
+                    </a>
                   </p>
                 </div>
               </div>
