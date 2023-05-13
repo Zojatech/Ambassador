@@ -44,9 +44,13 @@ const Develop = () => {
             skills.
           </h2>
           <p className=' mb-5 text-gray-text lg:mb-14 lg:w-5/6 lg:text-xl'>
-            Equipping you with skill sets for a thriving career through
-            networking and collaboration and connecting like minds to drive
-            innovation and progress.{' '}
+            As a tech-driven organization we equip you with skill set for a
+            thriving career through networking collaboration and periodic
+            training. By becoming an ambassador, we help you grow by offering
+            free periodic training in various tech fields to help you maximize
+            your potential in your choice of career be it Business Development,
+            Product Management, Software Engineering etc. You also stand a
+            chance to intern with us at Zojatech.
           </p>
           <Button label='Learn More' link='#to-join' />
         </motion.div>

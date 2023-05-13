@@ -33,7 +33,7 @@ export const accordionContent = [
 // TOJOIN SECTION
 export const toJoin = [
   'Be passionate about financial education',
-  'Be eager to learn effective commnication skills',
-  'Be excited about creating innovation and showcasing creativity',
+  'Be  interested in adding value and learning new things while networking with like minds',
+  'Be passionate about innovation and financial inclusion',
   'Be enthusiastic about teamwork and collaboration',
 ];
