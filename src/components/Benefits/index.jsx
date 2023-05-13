@@ -60,44 +60,16 @@ const Benefits = () => {
           <article className='col-span-1 w-3/4 sm:w-full'>
             <div className='flex flex-col gap-4'>
               {/* Logo */}
-              <div className='mb-6 flex h-24 w-24 items-center justify-center  rounded-full bg-[#FFAF56] bg-opacity-[15%]'>
-                <img src={Growth} />
+              <div className='mb-6 flex h-24 w-24 items-center justify-center  rounded-full bg-primary bg-opacity-[15%]'>
+                <img src={Safe} />
               </div>
               <h3 className='font-semibold lg:text-xl xl:text-2xl'>
-                Exclusive to Zojapay events
+                Endless earning opportunities
               </h3>
               <p>
                 Refer and earn as much as you can. By being an ambassador, you
                 have an extra source of income which when actively done will
                 become a major source of income.{' '}
-              </p>
-            </div>
-          </article>
-          <article className='col-span-1 w-3/4 sm:w-full'>
-            <div className='flex flex-col gap-4'>
-              {/* Logo */}
-              <div className='mb-6 flex h-24 w-24 items-center justify-center  rounded-full bg-[#2DBD9B] bg-opacity-[15%]'>
-                <img src={Note} />
-              </div>
-              <h3 className='font-semibold lg:text-xl xl:text-2xl'>
-                Exclusive to Zojapay events
-              </h3>
-              <p>
-                Ambassadors get swag items to show off and share with friends.
-              </p>
-            </div>
-          </article>
-          <article className='col-span-1 w-3/4 sm:w-full'>
-            <div className='flex flex-col gap-4'>
-              {/* Logo */}
-              <div className='mb-6 flex h-24 w-24 items-center justify-center  rounded-full bg-primary bg-opacity-[15%]'>
-                <img src={Safe} />
-              </div>
-              <h3 className='font-semibold lg:text-xl xl:text-2xl'>
-                Exclusive to Zojapay events
-              </h3>
-              <p>
-                Ambassadors get swag items to show off and share with friends.
               </p>
             </div>
           </article>
