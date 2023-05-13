@@ -86,9 +86,10 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='text-black-500 dark:hover:text-blue ml-3.5 text-xs hover:text-blue-900 md:hidden '>
+        <div className='ml-3.5 text-xs text-primary md:hidden '>
           <a>
-            <span className=''> &#169; 2020</span> Zojapay.All Right Reserved
+            <span className='text-primary'> &#169; 2020</span> Zojapay.All Right
+            Reserved
           </a>
         </div>
       </div>
