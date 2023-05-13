@@ -1,32 +1,30 @@
-import Person from '@/assets/person.png';
-import Instagram from '@/assets/instagram.svg';
+import instagram from '@/assets/instagram.svg';
 
-const TestimonialCard = ({ bgColor }) => {
+const TestimonialCard = ({ bgColor, handle, name, testimony, image }) => {
   return (
-    <div className={`px-5 pt-7 pb-14 ${bgColor} rounded-md`}>
-      <p className='font-medium mb-12 lg:mb-24'>
-        “Being a Zojapay’s ambassador has taught me about leadership and
-        teamwork. I’m always glad to preach the gospel about Zojapay.”
-      </p>
-      <div className='flex gap-6 items-center'>
+    <div className={`px-5 pb-14 pt-7 ${bgColor} rounded-md`}>
+      <p className='mb-12 font-medium lg:mb-24'>{`"${testimony}"`}</p>
+      <div className='flex items-center gap-6'>
         {/* Avatar */}
-        <div className='w-[50px] h-[50px]'>
-          <img src={Person} alt='person' />
+        <div className='h-[50px] w-[50px] rounded-full'>
+          <img src={image} alt='person-avatar' className=' rounded-full' />
         </div>
+
         {/* Name and Socials */}
         <div>
-          <p className='text-2xl mb-3'>John Ovu</p>
+          <p className='mb-3 text-2xl'>{name}</p>
+
           {/* Socials */}
           <div className='flex items-center gap-3'>
             <div className='w-6'>
               <img
-                src={Instagram}
+                src={instagram}
                 alt='instagram icon'
                 className='max-w-full'
               />
             </div>
             <span>
-              Instagram handle: <strong>john_ovu</strong>
+              Instagram handle: <strong>{handle}</strong>
             </span>
           </div>
         </div>

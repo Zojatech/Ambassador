@@ -62,11 +62,29 @@ export const benefits = [
 ];
 
 // TESTIMONIAL SECTION
-export const testimonials = {
-  intro: `Being a Zojapay’s ambassador has taught me about leadership and teamwork. I’m always glad to preach the gospel about Zojapay.`,
-  details: [
-    { name: 'John Ovu', handle: 'john_ovu', image: '' },
-    { name: 'Cassandra Onyenjen', handle: 'cassy_o', image: '' },
-    { name: 'Tosin Oni', handle: 'tosi', image: '' },
-  ],
-};
+export const testimonials = [
+  {
+    name: 'John Ovu',
+    handle: 'john_ovu',
+    image: '/src/assets/person.png',
+    testimony:
+      'Being a Zojapay’s ambassador has taught me about leadership and teamwork. I’m always glad to preach the gospel about Zojapay.',
+    bgColor: 'bg-[#FFF6EE]',
+  },
+  {
+    name: 'Cassandra Onyenjen',
+    handle: 'cassy_o',
+    image: '/src/assets/images/drew.png',
+    testimony:
+      "Being a Zojapay ambassador has allowed me to connect with other fintech enthusiasts and stay up-to-date on the latest trends in financial technology. It's been an incredibly rewarding experience, and I'm proud to spread the word about Zojapay's innovative solutions.",
+    bgColor: 'bg-[#ECFBEC]',
+  },
+  {
+    name: 'Tosin Oni',
+    handle: 'tosi',
+    image: '/src/assets/images/andrew.png',
+    testimony:
+      "Thanks to Zojapay's ambassador program, I've had the chance to expand my knowledge of the fintech industry, attend exciting events, and connect with other passionate individuals.",
+    bgColor: 'bg-[#FDF3F6]',
+  },
+];
