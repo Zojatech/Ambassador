@@ -60,25 +60,16 @@ const Footer = () => {
               <ul className='mt-2.5 flex flex-col gap-2.5'>
                 <li>Gbagada lagos</li>
                 <li>help@zojaypay.com</li>
-                <li>
-                  Follows us
-                  <a
-                    href='/#'
-                    className='text-black-500 dark:hover:text-blue hover:text-blue-900'
-                  >
-                    <i className='fa-brands fa-facebook-f  mx-[6px] text-[15px]'></i>
+                <li className='flex gap-3'>
+                  Follow us
+                  <a href='/#' className='text-primary'>
+                    <i className='fa-brands fa-facebook-f text-[15px]'></i>
                   </a>
-                  <a
-                    href='/#'
-                    className='text-black-500 dark:hover:text-blue hover:text-blue-900'
-                  >
-                    <i className='fa-brands fa-twitter mx-1.5 text-[15px]'></i>
+                  <a href='/#' className='text-primary'>
+                    <i className='fa-brands fa-twitter text-[15px]'></i>
                   </a>
-                  <a
-                    href='/#'
-                    className='text-black-500 dark:hover:text-blue hover:text-blue-900'
-                  >
-                    <i className='fa-brands fa-instagram  mx-[6px] text-[15px]'></i>
+                  <a href='/#' className='text-primary'>
+                    <i className='fa-brands fa-instagram  text-[15px]'></i>
                   </a>
                 </li>
               </ul>

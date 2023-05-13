@@ -4,7 +4,6 @@ import { AiOutlinePlusCircle } from 'react-icons/ai';
 import { BsDashCircle } from 'react-icons/bs';
 
 const Faqs = () => {
-  const [open, setOpen] = useState(false);
   const [accordionId, setAccordionId] = useState(null);
 
   const handleAccordion = (index) => {
