@@ -36,9 +36,10 @@ const Hero = () => {
             Zojapay. <br />
             <br /> Work remotely at your own pace. <br />
             <br />
-            You can earn up to <strong>45,000</strong> and more monthly. <br />
+            You can earn up to <strong>N45,000 </strong>
+            and more monthly. <br />
             <br />
-            Earn N 100 for every successful referral who downloads Zojapay and
+            Earn N100 for every successful referral who downloads Zojapay and
             Sign up. You also stand a chance to win amazing gifts monthly based
             on performance. <br />
             Get access to free periodic training to help you boost your career.
