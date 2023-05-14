@@ -2,11 +2,8 @@ import React from 'react';
 import TestimonialCard from './TestimonialCard';
 import Triangle from '@/assets/images/triangle.png';
 import { testimonials } from '@/data';
-import Person from '@/assets/person.png';
-import instagram from '@/assets/instagram.svg';
 
 const Testimonial = () => {
-  console.log(testimonials);
   return (
     <section id='testimonial'>
       <div className=' relative py-12 lg:pb-20 lg:pt-28'>

@@ -1,3 +1,7 @@
+import personImage from '@/assets/person.png';
+import drewImage from '@/assets/images/drew.png';
+import andrewImage from '@/assets/images/andrew.png';
+
 export const accordionContent = [
   {
     question: 'Who is eligible to apply?',
@@ -66,7 +70,7 @@ export const testimonials = [
   {
     name: 'John Ovu',
     handle: 'john_ovu',
-    image: '/src/assets/person.png',
+    image: personImage,
     testimony:
       'Being a Zojapay’s ambassador has taught me about leadership and teamwork. I’m always glad to preach the gospel about Zojapay.',
     bgColor: 'bg-[#FFF6EE]',
@@ -74,7 +78,7 @@ export const testimonials = [
   {
     name: 'Cassandra Onyenjen',
     handle: 'cassy_o',
-    image: '/src/assets/images/drew.png',
+    image: drewImage,
     testimony:
       "Being a Zojapay ambassador has allowed me to connect with other fintech enthusiasts and stay up-to-date on the latest trends in financial technology. It's been an incredibly rewarding experience, and I'm proud to spread the word about Zojapay's innovative solutions.",
     bgColor: 'bg-[#ECFBEC]',
@@ -82,7 +86,7 @@ export const testimonials = [
   {
     name: 'Tosin Oni',
     handle: 'tosi',
-    image: '/src/assets/images/andrew.png',
+    image: andrewImage,
     testimony:
       "Thanks to Zojapay's ambassador program, I've had the chance to expand my knowledge of the fintech industry, attend exciting events, and connect with other passionate individuals.",
     bgColor: 'bg-[#FDF3F6]',
