@@ -47,11 +47,13 @@ const Develop = () => {
             As a tech-driven organization we equip you with skill set for a
             thriving career through networking collaboration and periodic
             training. <br />
+            <br />
             By becoming an ambassador, we help you grow by offering free
             periodic training in various tech fields to help you maximize your
             potential in your choice of career be it Business Development,
-            Product Management, Software Engineering etc. You also stand a
-            chance to intern with us at Zojatech.
+            Product Management, Software Engineering etc. <br />
+            <br />
+            You also stand a chance to intern with us at Zojatech.
           </p>
           <Button label='Learn More' link='#to-join' />
         </motion.div>

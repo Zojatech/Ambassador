@@ -26,7 +26,7 @@ export const accordionContent = [
   {
     question: 'If I have information or inquiries, who do I reach?',
     answer: `Call the phone numbers on the website or send a message to `,
-    link: 'help@zojatech.com',
+    link: 'help@zojapay.com',
   },
   {
     question: 'How do I earn money as an ambassador?',
@@ -37,10 +37,10 @@ export const accordionContent = [
 
 // TOJOIN SECTION
 export const toJoin = [
-  'Be passionate about financial education',
-  'Be  interested in adding value and learning new things while networking with like minds',
-  'Be passionate about innovation and financial inclusion',
-  'Be enthusiastic about teamwork and collaboration',
+  'Be passionate about earning extra income.',
+  'Be interested in adding value and learning new things while networking with like minds.',
+  'Be passionate about innovation and financial inclusion.',
+  'Be enthusiastic about teamwork and collaboration.',
 ];
 
 // BENEFITS SECTION
@@ -56,7 +56,7 @@ export const benefits = [
   },
   {
     title: 'Exclusive to Zojapay events',
-    content: 'Get exclusive invites to all Zojatech events.',
+    content: 'Get exclusive invites to all Zojapay events.',
   },
   {
     title: 'Endless earning opportunities',
@@ -72,7 +72,7 @@ export const testimonials = [
     handle: 'john_ovu',
     image: personImage,
     testimony:
-      'Being a Zojapay’s ambassador has taught me about leadership and teamwork. I’m always glad to preach the gospel about Zojapay.',
+      'Being a Zojapay’s ambassador has taught me about leadership and teamwork. I’m always glad to preach the gospel about Zojapay. Most importantly, it has helped me earn extra income through the referral program',
     bgColor: 'bg-[#FFF6EE]',
   },
   {
@@ -84,11 +84,11 @@ export const testimonials = [
     bgColor: 'bg-[#ECFBEC]',
   },
   {
-    name: 'Tosin Oni',
-    handle: 'tosi',
+    name: 'Andrew Chidi',
+    handle: '_drew_magic',
     image: andrewImage,
     testimony:
-      "Thanks to Zojapay's ambassador program, I've had the chance to expand my knowledge of the fintech industry, attend exciting events, and connect with other passionate individuals.",
+      "Thanks to Zojapay's ambassador program, I've had the chance to expand my knowledge of the fintech industry, attend exciting events, and connect with other passionate individuals, while also making good money through the ambassador referral program ",
     bgColor: 'bg-[#FDF3F6]',
   },
 ];

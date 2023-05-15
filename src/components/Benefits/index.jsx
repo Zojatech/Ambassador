@@ -2,9 +2,7 @@ import React from 'react';
 import Gift from '@/assets/icons/gift.svg';
 import Badge from '@/assets/icons/badge.svg';
 import Calendar from '@/assets/icons/calendar.svg';
-import Note from '@/assets/icons/note.svg';
 import Safe from '@/assets/icons/safe.svg';
-import Growth from '@/assets/icons/growth.svg';
 
 const Benefits = () => {
   return (
@@ -54,7 +52,7 @@ const Benefits = () => {
               <h3 className='font-semibold lg:text-xl xl:text-2xl'>
                 Exclusive to Zojapay events
               </h3>
-              <p>Get exclusive invites to all Zojatech events. </p>
+              <p>Get exclusive invites to all Zojapay events. </p>
             </div>
           </article>
           <article className='col-span-1 w-3/4 sm:w-full'>

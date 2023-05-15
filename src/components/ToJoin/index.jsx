@@ -36,7 +36,7 @@ const ToJoin = () => {
             <h3 className='mb-8 text-lg font-semibold sm:mb-8 lg:mb-16'>
               To become a Zojapay Ambassador, you need to first Download and
               Sign up on the app to get a referral code among others as listed
-              below. also these are needed:
+              below.
             </h3>
             <ul className='mb-10 flex flex-col justify-between gap-4 lg:mb-14'>
               {toJoin?.map((item, index) => (

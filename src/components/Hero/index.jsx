@@ -29,19 +29,23 @@ const Hero = () => {
           </h1>
           <p className=' mb-5 text-gray-text lg:mb-14 lg:w-[90%] lg:text-xl xl:w-5/6'>
             Are you a student, working class, a business man or even a
-            stay-at-home? This is an opportunity to earn extra income at your
-            own comfort zone. <br />
-            Join our community, represent our brand as an ambassador and earn
-            while doing so by referring users to download and sign up on
-            Zojapay. <br />
+            stay-at-home mom? <br />
+            This is an opportunity to earn extra income at your own comfort
+            zone. <br />
+            <br />
+            <strong>Join our community,</strong> represent our brand as an
+            ambassador and earn while doing so by referring users to download
+            and sign up on Zojapay. <br />
             <br /> Work remotely at your own pace. <br />
             <br />
             You can earn up to <strong>N45,000 </strong>
             and more monthly. <br />
             <br />
             Earn N100 for every successful referral who downloads Zojapay and
-            Sign up. You also stand a chance to win amazing gifts monthly based
-            on performance. <br />
+            Sign up. <br />
+            You also stand a chance to win amazing gifts monthly based on
+            performance. <br />
+            <br />
             Get access to free periodic training to help you boost your career.
           </p>
           <Dropdown label='Become an Ambassador ' />
