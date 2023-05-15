@@ -52,24 +52,39 @@ const Footer = () => {
               <ul className='mt-2.5 flex flex-col gap-2.5'>
                 <li>Terms and condition</li>
                 <li>Privacy policy</li>
-                <li>FAQ</li>
+                <li>
+                  <a href='#faqs'>FAQ</a>
+                </li>
               </ul>
             </div>
 
             <div className='mx-0 mb-4'>
               <h3 className='font-semibold capitalize'>Support</h3>
               <ul className='mt-2.5 flex flex-col gap-2.5'>
-                <li>Gbagada lagos</li>
-                <li>help@zojaypay.com</li>
+                <li>
+                  9b Akin-Ogunmade Davies Cl,
+                  <br />
+                  Gbagada 102216, Lagos
+                </li>
+                <a href='mailto:help@zojapay.com'>help@zojaypay.com</a>
                 <li className='flex gap-3'>
                   Follow us
-                  <a href='/#' className='text-primary'>
+                  <a
+                    href='https://www.facebook.com/zojapay'
+                    className='text-primary'
+                  >
                     <i className='fa-brands fa-facebook-f text-[15px]'></i>
                   </a>
-                  <a href='/#' className='text-primary'>
+                  <a
+                    href='https://twitter.com/zojapay?s=20'
+                    className='text-primary'
+                  >
                     <i className='fa-brands fa-twitter text-[15px]'></i>
                   </a>
-                  <a href='/#' className='text-primary'>
+                  <a
+                    href='https://www.instagram.com/zojapay/?igshid=NTc4MTIwNjQ2YQ=='
+                    className='text-primary'
+                  >
                     <i className='fa-brands fa-instagram  text-[15px]'></i>
                   </a>
                 </li>

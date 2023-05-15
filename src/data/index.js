@@ -1,6 +1,10 @@
 import personImage from '@/assets/person.png';
-import drewImage from '@/assets/images/drew.png';
+import Cassy from '@/assets/images/cassy.jpg';
 import andrewImage from '@/assets/images/andrew.png';
+import Gift from '@/assets/icons/gift.svg';
+import Badge from '@/assets/icons/badge.svg';
+import Calendar from '@/assets/icons/calendar.svg';
+import Safe from '@/assets/icons/safe.svg';
 
 export const accordionContent = [
   {
@@ -46,22 +50,26 @@ export const toJoin = [
 // BENEFITS SECTION
 export const benefits = [
   {
-    title: 'Exciting branding <br />items.',
+    title: 'Exciting branding items.',
     content: 'Ambassadors get swag items to show off and share with friends.',
+    image: Gift,
   },
   {
     title: 'Obtain a certificate of participation',
     content:
       'Get certified as an authorized ambassador and other training certifications.',
+    image: Badge,
   },
   {
     title: 'Exclusive to Zojapay events',
     content: 'Get exclusive invites to all Zojapay events.',
+    image: Calendar,
   },
   {
     title: 'Endless earning opportunities',
     content:
       'Refer and earn as much as you can. By being an ambassador, you have an extra source of income which when actively done will become a major source of income.',
+    image: Safe,
   },
 ];
 
@@ -78,7 +86,7 @@ export const testimonials = [
   {
     name: 'Cassandra Onyenjen',
     handle: 'cassy_o',
-    image: drewImage,
+    image: Cassy,
     testimony:
       "Being a Zojapay ambassador has allowed me to connect with other fintech enthusiasts and stay up-to-date on the latest trends in financial technology. It's been an incredibly rewarding experience, and I'm proud to spread the word about Zojapay's innovative solutions.",
     bgColor: 'bg-[#ECFBEC]',
