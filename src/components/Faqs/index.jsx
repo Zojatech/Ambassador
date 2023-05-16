@@ -13,6 +13,7 @@ const Faqs = () => {
   return (
     <section id='faqs'>
       <div className='bg-primary bg-opacity-10 px-6 pb-16 pt-12 md:px-12 lg:px-28 lg:pb-24 lg:pt-28'>
+      
         {/* TITLE AND SUBTITLE */}
         <div className='mb-16 text-center md:mb-24'>
           <p className='mb-3 text-primary'>frequently asked questions</p>

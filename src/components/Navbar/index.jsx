@@ -54,6 +54,7 @@ const Navbar = () => {
                 <a
                   className='cursor-pointer rounded-md border border-primary p-[10px]'
                   onClick={menuHandler}
+                  href='http://onelink.to/26kkc7'
                 >
                   Get the app
                 </a>
@@ -77,7 +78,10 @@ const Navbar = () => {
 
         {/* GET THE APP */}
         <div className='hidden md:flex'>
-          <a className='cursor-pointer rounded-md border border-primary p-[10px]'>
+          <a
+            className='cursor-pointer rounded-md border border-primary p-[10px]'
+            href='http://onelink.to/26kkc7'
+          >
             Get the app
           </a>
         </div>
