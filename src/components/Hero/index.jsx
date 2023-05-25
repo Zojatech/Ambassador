@@ -28,11 +28,6 @@ const Hero = () => {
             aspiring ambassador
           </h1>
           <p className=' mb-5 text-gray-text lg:mb-14 lg:w-[90%] lg:text-xl xl:w-5/6'>
-            Are you a student, working class, a business man or even a
-            stay-at-home mom? <br />
-            This is an opportunity to earn extra income at your own comfort
-            zone. <br />
-            <br />
             <strong>Join our community,</strong> represent our brand as an
             ambassador and earn while doing so by referring users to download
             and sign up on Zojapay. <br />
@@ -48,6 +43,14 @@ const Hero = () => {
             <br />
             Get access to free periodic training to help you boost your career.
           </p>
+          <div className='mb-4'>
+            <a
+              className='cursor-pointer rounded-md border border-primary p-[10px]'
+              href='http://onelink.to/26kkc7'
+            >
+              Get the app
+            </a>
+          </div>
           <Dropdown label='Become an Ambassador ' />
         </motion.div>
 

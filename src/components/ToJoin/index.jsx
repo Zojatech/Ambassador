@@ -49,6 +49,14 @@ const ToJoin = () => {
                 </li>
               ))}
             </ul>
+            <div className='mb-4'>
+              <a
+                className='cursor-pointer rounded-md border border-primary p-[10px]'
+                href='http://onelink.to/26kkc7'
+              >
+                Get the app
+              </a>
+            </div>
             <Dropdown label='Become an Ambassador' />
           </motion.div>
         </div>
