@@ -5,21 +5,21 @@ import Features from '@/components/Features';
 import Footer from '@/components/Footer.js';
 import Faqs from '@/components/Faqs';
 import ReactPixel from 'react-facebook-pixel';
-import dotenv from 'dotenv';
-
+// import dotenv from 'dotenv';
+import FacebookPixel from '@/components/FacebookPixel';
 
 function App() {
-// Load the environment variables
-dotenv.config();
+  const pixelId = import.meta.env.VITE_REACT_APP_PIXEL_ID;
 
-// Initialize the Facebook Pixel
-ReactPixel.init(process.env.REACT_APP_PIXEL_ID);
+  // Initialize the Facebook Pixel
+  ReactPixel.init(pixelId);
 
-// Track a page view
-ReactPixel.pageView();
+  // Track a page view
+  ReactPixel.pageView();
 
   return (
     <div>
+      <FacebookPixel pixelId={pixelId} />
       <Navbar />
       <main>
         <Hero />
